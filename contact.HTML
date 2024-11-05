@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="Sales Inquiry">Sales Inquiry</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="schedule">
+        <h2>Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Date</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Monday, November 11</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Tuesday, November 12</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Wednesday, November 13</td>
+                    <td>Booked</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Thursday, November 14</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>3:00 PM</td>
+                    <td>Friday, November 15</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
